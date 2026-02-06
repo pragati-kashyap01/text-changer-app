@@ -1,0 +1,57 @@
+/* body{ 
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+
+
+} */
+
+/* .box{
+    text-align: center;
+} */
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.container{
+    display: flex;
+    gap: 40px;
+    padding: 30px;
+    border: 2px solid rgb(28, 44, 12);
+    gap: 80px;
+}
+
+.left{
+    display: flex;
+    flex-direction:column ;
+}
+
+h1{
+color: rgb(28, 44, 12);
+}
+
+body{
+    background-color: rgb(117, 140, 114);
+}
+
+.container{
+background-color: rgb(126, 185, 126);
+}
+
+button{
+    
+    cursor: pointer;
+    background-color: rgb(140, 201, 111);
+}
+
+.changeInput{
+    background-color: rgb(176, 239, 190);
+}
+
+
